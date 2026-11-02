@@ -4,14 +4,13 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "dev": "pnpm -r dev",
-    "dev:web": "pnpm --filter web dev",
-    "monitor": "pnpm --filter server monitor"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "monitor": "turbo run monitor --filter=server",
+    "dev:web": "turbo run dev --filter=web"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "apps/*"
-  ]
+  "packageManager": "pnpm@10.11.0"
 }
