@@ -76,6 +76,8 @@ Use the [Mi Home app](https://play.google.com/store/apps/details?id=com.xiaomi.s
 
 Alternatively, extract it from your Mi Home cloud backup or use a tool like [miio](https://github.com/unichris/miio).
 
+**GUI Miio Token Extractor** — a cross-platform desktop app that reads the token from the Mi Home app's local storage: [mLihs/GUI-Miio-Tokenextrator-All-Plattforms](https://github.com/mLihs/GUI-Miio-Tokenextrator-All-Plattforms)
+
 ## Running
 
 ### Development (both apps)
