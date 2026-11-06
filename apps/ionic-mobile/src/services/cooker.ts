@@ -1,7 +1,8 @@
 /**
  * Read-only cooker monitor service boundary.
  *
- * Raw UDP is intentionally delegated to a Capacitor native plugin. Browser
+ * Raw UDP is intentionally delegated to a Capacitor native plugin. Packet arguments and responses
+ * are hexadecimal strings (two characters per byte). Browser
  * networking is not suitable for MiIO UDP. No write/control command API exists.
  */
 import { Capacitor, registerPlugin } from '@capacitor/core';
