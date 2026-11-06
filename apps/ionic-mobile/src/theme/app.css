@@ -1,0 +1,27 @@
+body { background: #101318; }
+ion-toolbar { --border-color: transparent; }
+ion-title { font-weight: 650; letter-spacing: -0.02em; }
+.dashboard { max-width: 760px; margin: 0 auto; padding: 24px 18px 40px; }
+.hero { padding: 12px 4px 22px; }
+.eyebrow { color: #8b9cff; font-size: 11px; font-weight: 700; letter-spacing: .13em; }
+.hero h1 { margin: 9px 0; font-size: clamp(28px, 7vw, 38px); letter-spacing: -.04em; }
+.hero p { margin: 0; color: #929baa; line-height: 1.5; }
+ion-card { margin: 0 0 14px; border: 1px solid #2a303b; border-radius: 16px; box-shadow: none; }
+ion-card-title { font-size: 15px; font-weight: 650; }
+.ip-field { --background: transparent; --padding-start: 0; }
+.ip-field ion-input { margin-top: 8px; font-family: ui-monospace, monospace; }
+.connection-row { display: flex; align-items: center; gap: 9px; margin: 18px 0 12px; }
+.connection-row ion-button { margin-left: auto; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: #687080; }
+.status-dot.online { background: #54d6a0; box-shadow: 0 0 12px #54d6a055; }
+ion-note { display: block; line-height: 1.5; font-size: 12px; }
+.metrics-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 14px; }
+.metric-card { margin: 0; }
+.metric-card ion-card-content { display: flex; flex-direction: column; gap: 7px; padding: 17px; }
+.metric-label { color: #929baa; font-size: 12px; }
+.metric-card strong { font-size: 27px; letter-spacing: -.04em; }
+.metric-card small { color: #6f7989; font-size: 11px; }
+.info-card p { margin: 12px 0 0; color: #929baa; font-size: 13px; line-height: 1.55; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; font-weight: 650; }
+.readonly-pill { padding: 4px 7px; border-radius: 6px; background: #252b37; color: #a8b5ff; font-size: 10px; letter-spacing: .06em; }
+@media (max-width: 380px) { .dashboard { padding-inline: 12px; } .metric-card ion-card-content { padding: 13px; } }
